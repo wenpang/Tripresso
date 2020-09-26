@@ -218,7 +218,7 @@
 
     .page {
       position: relative;
-      left: 30%;
+      left: 35%;
       margin: 30px 0 0 0;
     }
 

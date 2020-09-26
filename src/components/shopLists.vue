@@ -191,8 +191,7 @@ import axios from 'axios';
 
     .title{
       font-size: 14px;
-      margin-left: 3px;
-      text-indent: 10px;
+      text-indent: 20px;
       color: black;
       text-align: left;
     }
@@ -205,13 +204,13 @@ import axios from 'axios';
       background: lightgrey;
       width: 80px;
       border-radius: 3px;
-      margin: 10px;
+      margin: 10px 20px;
       color: gray;
       font-family: Ebrima,cursive;
     }
 
     .tages {
-      margin: 10px 10px 10px 10px;
+      margin: 10px 10px 10px 15px;
     }
 
     .scheduled{
@@ -238,8 +237,8 @@ import axios from 'axios';
       font-weight: bold;
       color: black;
       display: inline-block;
-      margin-top: 10px;
-      margin-left: 50px;
+      margin-top: 15px;
+      margin-left: 85px;
     }
 
   }
