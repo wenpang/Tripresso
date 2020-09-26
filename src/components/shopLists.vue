@@ -32,7 +32,7 @@
                 <el-button type="primary" round size="mini" v-for="tag of item.tags" class="tag">{{tag}}</el-button>
               </el-row>
             </div>
-            <hr/>
+            <hr style="margin-left: 25px;"/>
             <span class="scheduled" v-for="popo of item.group">
                 &nbsp;
                 {{popo.date}}
@@ -104,15 +104,16 @@ import axios from 'axios';
     }
 
     .company{
-      margin: 15px 10px;
+      margin: 10px;
       color: gray;
       font-weight: bold;
     }
 
     .title{
       font-size: 16px;
-      text-indent: 10px;
+      margin: 15px 20px;
       color: black;
+
     }
 
     .title:hover {
@@ -121,22 +122,23 @@ import axios from 'axios';
 
     .locale {
       background: lightgrey;
-      width: 80px;
+      width: 100px;
+      padding: 2px;
       border-radius: 3px;
-      margin: 10px;
+      margin: 20px 25px;
       color: gray;
       font-family: Ebrima,cursive;
     }
 
     .tages {
-      margin: 10px;
+      margin: 20px;
     }
 
     .scheduled{
       color: cornflowerblue;
       font-size: 13px;
       display: inline-block;
-      margin:0 0 6px 8px;
+      margin:0 0 6px 25px;
     }
 
     .price {
@@ -149,6 +151,10 @@ import axios from 'axios';
 
     .price:hover{
       color:black;
+    }
+
+    .love {
+      display: inline-block;
     }
 
   }

@@ -84,7 +84,7 @@
             row_per_page: 10,
             sort: 'rating_desc',
             pages: [1],
-            resultEnd: [],       //測試資料  this.$store.getters.listsData.data.tour_list && 將 getData() 裏面 coding 注解掉
+            resultEnd: [],    //測試資料  this.$store.getters.listsData.data.tour_list && 將 getData() 裏面 coding 注解掉
             other: true
           }
         },
